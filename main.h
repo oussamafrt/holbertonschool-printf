@@ -1,14 +1,18 @@
-# ifndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
-typedef struct directive
-{
-	char *directive;
-	void (*f)(va_list args, int *b);
-} conversion;
-int _putchar(char c);
+#include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 int _printf(const char *format, ...);
-int (*get_conversion_func(char *a));
 void conv_pourcentage(va_list args, int *count);
 void conv_string(va_list args, int *count);
 void conv_char(va_list args, int *count);
+void get_conversion_func(char a, va_list args, int *count);
+typedef struct directive
+{
+	char *directive;
+	void (*f)(va_list args, int *count);
+} conversion;
 #endif
