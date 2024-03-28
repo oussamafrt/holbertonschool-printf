@@ -14,12 +14,11 @@ The _printf project is a simplified implementation of the printf function in the
 .SH \fB\fUOPTIONS\fR\fR
 .P
 In our project, we have incorporated several options that handle the following functions:
-\fUconv_percentage\fR: handles the conversion of \fI%\fR who prints a literal '%' character.
-\fUconv_string\fR: manages the conversion of \fI%s\fR who prints a string.
-\fUconv_char\fR: handles the conversion of \fI%c\fR who prints a single characte.
-\fUget_conversion_func\fR: retrieves the conversion function associated with a format character.
-\fUconv_decimal\fR: manages the conversion of \fI%d\fR who prints a decimal number.
-\fUconv_integer\fR: handles the conversion of \fI%i\fR who prints an integer.
+\fI%\fR prints a literal '%' character.
+\fI%s\fR prints a string.
+\fI%c\fR prints a single characte.
+\fI%d\fR prints a decimal number.
+\fI%i\fR prints an integer.
 
 .SH \fB\fUEXEMPLES\fR\fR
 .P
@@ -31,6 +30,9 @@ _printf("%s", "C is fun");
 STDOUT output: "C is fun".
 
 _printf("C is top %d", "1");
+STDOUT output: "C is top 1".
+
+_printf("C is top %i", "1");
 STDOUT output: "C is top 1". 
 
 .SH \fB\fURÉFÉRENCES\fR\fR
