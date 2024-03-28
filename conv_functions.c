@@ -28,6 +28,10 @@ void conv_string(va_list args, int *count)
 	char *string = va_arg(args, char *);
 	int i = 0;
 
+	if (string == NULL)
+	{
+		string = "(null)";
+	}
 	while (string[i] != '\0')
 	{
 		putchar(string[i]);
@@ -35,6 +39,7 @@ void conv_string(va_list args, int *count)
 		i++;
 	}
 }
+
 /**
  * conv_pourcentage - Print a percentage character
  * @count: Pointer to an integer to count the number of characters printed
@@ -91,4 +96,5 @@ void conv_integer(va_list args, int *count)
 	putchar (string + '0');
 	(*count)++;
 }
+
 
