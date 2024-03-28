@@ -30,5 +30,5 @@ void get_conversion_func(char a, va_list args, int *count)
 	}
 	putchar('%');
 	putchar(a);
-	count++;
+	count += 2;
 }
