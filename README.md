@@ -1,6 +1,7 @@
 <div align="center">
 <img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/1825/thumb_bigger_formation-langage-c-les-bases.png">
 </div>
+
 # HOLBERTONSCHOOL-PRINT
 
 _PRINTF is a custom implementation of the string formatting function in C, similar to the standard printf function in the C library. This function allows you to format and print strings with variable arguments.
@@ -12,6 +13,7 @@ _PRINTF is a custom implementation of the string formatting function in C, simil
 3. Installation
 4. Features
 5. Usages
+6. Authors
 
 # Requirements
 ## General
