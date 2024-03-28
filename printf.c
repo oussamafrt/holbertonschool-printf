@@ -22,7 +22,7 @@ int _printf(const char *format, ...)
 	va_start(args, format);
 	while (*format)
 	{
-		if (*format != '%' || (*format == '%' && *format++ == '\0'))
+		if (*format != '%')
 		{
 			putchar(*format);
 			count++;
