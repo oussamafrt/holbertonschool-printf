@@ -28,4 +28,7 @@ void get_conversion_func(char a, va_list args, int *count)
 		}
 		i++;
 	}
+	putchar('%');
+	putchar(a);
+	count++;
 }
