@@ -53,7 +53,7 @@ conv_string : manages the conversion of %s who prints a string.\
 conv_char : handles the conversion of %c who prints a single characte.\
 get_conversion_func : retrieves the conversion function associated with a format character.\
 conv_decimal : manages the conversion of %d who prints a decimal number.\
-conv_integer: handles the conversion of %i who prints an integer.
+conv_integer : handles the conversion of %i who prints an integer.
 
 
 # Usage
