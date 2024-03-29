@@ -21,7 +21,6 @@ void conv_char(va_list args, int *count)
  * @count: Pointer to an integer to count the number of characters printed
  *
  * Description: This function prints a string retrieved from a va_list.
- *
  */
 void conv_string(va_list args, int *count)
 {
@@ -45,7 +44,6 @@ void conv_string(va_list args, int *count)
  * @count: Pointer to an integer to count the number of characters printed
  * @args: The va_list containing the string to print
  * Description: This function prints a percentage character ("%").
- *
  */
 void conv_pourcentage(va_list args, int *count)
 {
@@ -96,5 +94,3 @@ void conv_integer(va_list args, int *count)
 	putchar (string + '0');
 	(*count)++;
 }
-
-
