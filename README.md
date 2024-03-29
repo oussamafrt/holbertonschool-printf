@@ -9,7 +9,7 @@ _PRINTF is a custom implementation of the string formatting function in C, simil
 # Table of Contents
 
 1. Introduction
-2. Requierments
+2. Requirements
 3. Installation
 4. Features
 5. Usages
