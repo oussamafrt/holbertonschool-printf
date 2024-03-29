@@ -66,7 +66,7 @@ int main(void)
   _printf("%s", "C is fun")
 }
 ```
-STDOUT output: "C is fun"
+STDOUT output : "C is fun"
 ```
 #include "main.h"
 
@@ -75,7 +75,7 @@ int main(void)
   _printf("%c is fun", "C")
 }
 ```
-STDOUT output: "C is fun"
+STDOUT output : "C is fun"
 ```
 #include "main.h"
 
@@ -84,7 +84,7 @@ int main(void)
   _printf("C is top %d", "1")
 }
 ```
-STDOUT output: "C is top 1"
+STDOUT output : "C is top 1"
 ```
 #include "main.h"
 
@@ -93,7 +93,7 @@ int main(void)
   _printf("C is top %i", "1")
 }
 ```
-STDOUT output: "C is top 1"
+STDOUT output : "C is top 1"
 # Authors
 
 - Marion SAINT-MARTIN <8948@holbertonstudents.com>
