@@ -13,6 +13,8 @@ void get_conversion_func(char a, va_list args, int *count)
 		{"c", conv_char},
 		{"s", conv_string},
 		{"%", conv_pourcentage},
+		{"i", conv_integer},
+		{"d", conv_integer},
 		{NULL, NULL}
 	};
 	int i = 0;
@@ -26,4 +28,7 @@ void get_conversion_func(char a, va_list args, int *count)
 		}
 		i++;
 	}
+	putchar('%');
+	putchar(a);
+	*count += 2;
 }
