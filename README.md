@@ -99,5 +99,3 @@ STDOUT output: "C is top 1"
 - Marion SAINT-MARTIN <8948@holbertonstudents.com>
 - Jihad DADDI <8795@holbertonstudents.com>
 - Oussama FERHAT <8874@holbertonstudents.com>
-=======
->>>>>>> 019c221cf8ed0892323349366b254d335653cc9e
