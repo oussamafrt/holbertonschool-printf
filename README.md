@@ -17,7 +17,7 @@ _PRINTF is a custom implementation of the string formatting function in C, simil
 
 # Requirements
 ## General
-- Allowed editors: vi, vim, emacs.
+- Allowed editors : vi, vim, emacs.
 - All your files should end with a new line.
 - A README.md file, at the root of the folder of the project is mandatory.
 - Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl.
@@ -47,11 +47,11 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 # Features
 
 In our project, we have incorporated several options that handle the following functions :\
-conv_percentage: handles the conversion of % who prints a literal '%' character.\
-conv_string: manages the conversion of %s who prints a string.\
-conv_char: handles the conversion of %c who prints a single characte.\
-get_conversion_func: retrieves the conversion function associated with a format character.\
-conv_decimal: manages the conversion of %d who prints a decimal number.\
+conv_percentage : handles the conversion of % who prints a literal '%' character.\
+conv_string : manages the conversion of %s who prints a string.\
+conv_char : handles the conversion of %c who prints a single characte.\
+get_conversion_func : retrieves the conversion function associated with a format character.\
+conv_decimal : manages the conversion of %d who prints a decimal number.\
 conv_integer: handles the conversion of %i who prints an integer.
 
 
