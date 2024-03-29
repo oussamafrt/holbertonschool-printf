@@ -1,3 +1,0 @@
-Marion SAINT-MARTIN 8948@holbertonstudents.com
-Jihad DADDI 8795@holbertonstudents.com
-Oussama FERHAT 8874@holbertonstudents.com
