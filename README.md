@@ -46,7 +46,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 # Features
 
-In our project, we have incorporated several options that handle the following functions:\
+In our project, we have incorporated several options that handle the following functions :\
 conv_percentage: handles the conversion of % who prints a literal '%' character.\
 conv_string: manages the conversion of %s who prints a string.\
 conv_char: handles the conversion of %c who prints a single characte.\
